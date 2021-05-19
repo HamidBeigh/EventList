@@ -1,0 +1,21 @@
+.container{
+  padding-top: 20px;
+  height: 600px;
+  width: 688px;
+  background: skyblue;
+}
+
+h1{
+  text-align: center;
+}
+form{
+  padding: 10px;
+  background: gray;
+}
+#ullink{
+  display: inline-flex;
+  list-style:none;
+}
+table {
+  text-align: center;
+}
