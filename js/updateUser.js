@@ -1,7 +1,10 @@
-const myForm = document.getElementById("myForm");
-myForm.addEventListener("submit",formUpdation);
 var getLoggedUser = JSON.parse(localStorage.getItem("loggedUser"));
 var userDetails = JSON.parse(localStorage.getItem("user"));
+if(getLoggedUser === null){
+  location.replace("index.php");
+}
+const myForm = document.getElementById("myForm");
+myForm.addEventListener("submit",formUpdation);
 insertData();
  function insertData(){
    let fname = document.getElementById("fname");

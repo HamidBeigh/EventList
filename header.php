@@ -12,7 +12,7 @@
       <li><a href="index.php">Home </a></li><br>
       <li><a href="log_in.php">Login </a></li>
       <li><a href="sign_up.php">SignUp</a></li>
-       <li><a href="log_in.php">Login</a></li> 
+       <li><a href="log_in.php">Login</a></li>
     </ul> -->
     <div class="container">
 

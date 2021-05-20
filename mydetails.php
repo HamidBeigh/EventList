@@ -3,7 +3,7 @@
 ?>
 <div>
   <div class="col-12" style="text-align:right">
-    <a href="updateForm.php">setting</a>
+    <a href="updateForm.php"><button class='btn btn-sm' style="background:blue">account settings</button></a>
   </div>
     <h3>Dashboard</h3>
 </div>
