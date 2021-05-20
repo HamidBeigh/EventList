@@ -1,6 +1,7 @@
 
   const myForm = document.getElementById("myForm");
   myForm.addEventListener("submit",saveDataToStorage);
+
   function saveDataToStorage(e){
     e.preventDefault();
     var fname = document.getElementById("fname").value;

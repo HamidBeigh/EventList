@@ -2,6 +2,9 @@
   include("header.php")
 ?>
 <div>
+  <div class="col-12" style="text-align:right">
+    <a href="updateForm.php">setting</a>
+  </div>
     <h3>Dashboard</h3>
 </div>
 
